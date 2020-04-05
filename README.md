@@ -1,29 +1,27 @@
-# Linux-US-Services
+# Python language elements
 
 ## Purpose
 This repository holds code that was developed by Shuky Persky for the purpose of 
-studying and practicing Linux User-Space services given by the Linux Kernel.
+refresh & practic the Python language varios elements.
 
 ## Usage / Sharing
 This code can be used and distributed freely for any matter it may help.
-No warranty is set for users of this code.
 
 ## NO Warranty
 The code inhere is allowed to be used "as is". No warranty may be assumed.
 Using the code is on the sole responsibility of the user.
 
 ## Addition/Correction/Improvment
-If any mistake/error is encountered, or any idea comes up , the author welcomes 
-(with appreciation) any cmment that will support improving the code.
+If any mistake/error is encountered, or any idea comes up, the author welcomes 
+(with appreciation) any comment that will support improving the code.
 
-Same is true if there will be an uncovered topic which should appear as part 
-of the package.
+Same is true if there is an uncovered topic which better be added to this code.
 
 ## Development Tool
 PyCharm community IDE (thanks to JetBrains)
 
 ## Contact point
-Please email to: shukyp@bezeqint.net
+shukyp@bezeqint.net
 
 ## Last (but not least)
 Enjoy!!!
