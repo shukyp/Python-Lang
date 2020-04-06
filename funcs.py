@@ -1,4 +1,14 @@
+#===========================================================================
+#                           Files Module
+#===========================================================================
+"""
+# Demonstrates some topics that pertain to functions definitions and invocation
+#
+# Author: Shuky Persky
+#
+"""
 
+#===========================================================================
 # non-default value parameter must come before ALL default value parameter(s)
 def func_example(font='Arial', bg_color='yellow', font_size = 14, font_color = 'red'):
     print('font:', font)
@@ -6,6 +16,8 @@ def func_example(font='Arial', bg_color='yellow', font_size = 14, font_color = '
     print ('font_size:', font_size)
     print ('font_color:', font_color)
 
+
+#===========================================================================
 #module entry point function
 def funcs_mdl():
 

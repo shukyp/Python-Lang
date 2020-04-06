@@ -1,3 +1,12 @@
+#===========================================================================
+#                           Lists Module
+#===========================================================================
+"""
+# Demonstrates accessing the builtin List type (container)
+#
+# Author: Shuky Persky
+#
+"""
 
 #---------------------------------------------------------------------------------
 # list obj APIs:
@@ -21,6 +30,18 @@ def list_show(lst):
     print('\n Looping thru the list elements (for loop)\n')
     for elem in lst:
         print(elem, ',')
+
+    #List of lists
+    mtrx = [[1, 3], [-9, 33], [111, -88], [62, 44], [-12, 56]]
+    for elem in mtrx:
+        for subelem in elem:
+            print(subelem, ',')
+        print('\n**\n')
+
+    for i in range(0, len(mtrx)):
+        for j in range(0,len(mtrx[i])):
+            print(mtrx[i][j])
+        print('\n**\n')
 
 
 #================================================================================
@@ -274,6 +295,10 @@ def lists_join (lst):
     lst2.reverse ()  # reverse the copy
     lst3 = lst + lst2
     print ('\nThe result of joining by adding ', lst2, ' to end of ', lst, ' is ', lst3)
+
+    # list can be duplicated few times by multiplication
+    mul_lst = lst * 4  #multiply 4 times
+    print ('\nThe result of joining by multiply ', lst, ' 4 times is ', mul_lst)
 
     # join by extend
     lst4 = lst.copy ()

@@ -1,3 +1,12 @@
+#===========================================================================
+#                           Files Module
+#===========================================================================
+"""
+#Demonstrates accessing text file
+#
+# Author: Shuky Persky
+#
+"""
 
 from os import SEEK_SET, SEEK_CUR, SEEK_END
 from os import getcwd

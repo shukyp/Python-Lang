@@ -1,3 +1,39 @@
+#===========================================================================
+#                          MAIN - application entry point
+#===========================================================================
+
+"""
+# IMPORTANT
+# - In Python everything is an object - even so is the module and a function
+# - you can find the objects of a another objects by dir(object)
+#   e.g.        import module
+#               dir(module)
+#               help(module)
+#               help(module.object)     i/e/ object can be functions, variable
+#
+#   example (referring THIS modile - main.py)
+#   go to Python console and hit
+#       >>> import main
+#       >>> dir(main)
+#
+#       The respoonse:
+#       ['BASICS_MDL', 'CLASS_XMPL_MDL', 'DS_DICTS_MDL', 'DS_LISTS_MDL', 'DS_SETS_MDL', 'DS_TUPLES_M ....
+#       ... '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__'
+#       ... 'getopt', 'ifs_mdl', 'importer_mdl', 'loops_mdl', 'main', 'scope_mdl', 'show_menu', 'sys']
+#
+#   We can
+#       help(main), or
+#       help(main.__name__)
+#           and get much information about this module (incl. THIS text as well)
+#
+#       main.main.__name_
+#       main.main.__doc_
+#       help(main.main)         whicj will show main.main.__doc_
+#
+#
+# Author: Shuky Persky
+#
+"""
 
 #imports
 #---- system level ----
@@ -17,6 +53,8 @@ from ds_lists import ds_lists_mdl
 from ds_tuples import ds_tuples_mdl
 from ds_dicts import ds_dicts_mdl
 from ds_sets import ds_sets_mdl
+from eql_id import equality_identity_mdl
+from date_time  import date_time_mdl
 
 
 #--- modules list ---
@@ -32,6 +70,8 @@ DS_LISTS_MDL        = 9
 DS_TUPLES_MDL       = 10
 DS_DICTS_MDL        = 11
 DS_SETS_MDL         = 12
+EQL_ID_MDL          = 13
+DT_TM_MDL           = 14
 
 
 #globals
@@ -48,6 +88,8 @@ gMenu = {  # menu options
     DS_TUPLES_MDL   : ds_tuples_mdl,
     DS_DICTS_MDL    : ds_dicts_mdl,
     DS_SETS_MDL     : ds_sets_mdl,
+    EQL_ID_MDL      : equality_identity_mdl,
+    DT_TM_MDL       : date_time_mdl,
 }
 
 
@@ -70,21 +112,23 @@ def show_menu():
     print('%d. tuples' % (DS_TUPLES_MDL))
     print('%d. lists' % (DS_DICTS_MDL))
     print('%d. lists' % (DS_SETS_MDL))
+    print('%d. equality & identity' % (EQL_ID_MDL))
+    print('%d. date/time' % (DT_TM_MDL))
     print('#. Otherwise ... exit ')
 
 
 #==================================================================================
 #main function of project
 def main():
-    '''
+    """ This the main function.
     multiple line comment
     is very good sometimes
-    '''
+    """
 
     #show the (entry point scripr) script pathname
     print('\nRunning %s' % sys.argv[0])
 
-    # command line arguments pars
+    # command line arguments parse
     argv = sys.argv[1:]
     sum = 0
 

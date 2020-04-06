@@ -1,5 +1,12 @@
-
-
+#===========================================================================
+#                           Tuple Module
+#===========================================================================
+"""
+# Demonstrates accessing the builtin Tuple type (container)
+#
+# Author: Shuky Persky
+#
+"""
 
 #---------------------------------------------------------------------------------
 # tuple obj APIs:
@@ -7,6 +14,7 @@
 # https://www.tutorialspoint.com/python/python_tuples.htm
 #---------------------------------------------------------------------------------
 
+from math import *
 
 #================================================================================
 # Few ways to show a tuple
@@ -23,6 +31,18 @@ def tuple_show(tpl):
     print('\n Looping thru the tuple elements (for loop)\n')
     for elem in tpl:
         print(elem, ',')
+
+    #Tuple of tuples
+    mtrx = ((1, 3), (-9, 33), (111, -88), (62, 44), (-12, 56))
+    for elem in mtrx:
+        for subelem in elem:
+            print(subelem, ',')
+        print('\n**\n')
+
+    for i in range(0, len(mtrx)):
+        for j in range(0,len(mtrx[i])):
+            print(mtrx[i][j])
+        print('\n**\n')
 
 
 #================================================================================
@@ -132,6 +152,52 @@ def tuples_join (tpl):
     tpl3 = tpl + tpl2
     print ('\nThe result of joining by adding ', tpl2, ' to end of ', tpl, ' is ', tpl3)
 
+    # tuples can be duplicated few times by multiplication
+    mul_tpl = tpl * 4  #multiply 4 times
+    print ('\nThe result of joining by multiply ', tpl, ' 4 times is ', mul_tpl)
+
+
+#================================================================================
+def minmax(tpl):
+    """Finds and returnd the Max and the Min of the input tuple
+    :arg: tpl(Tuple)
+    :return: (Tuple) min, max
+    """
+
+    #if emply, return
+    if (len(tpl) == 0):
+        return None, None
+
+    # init
+    min = max = tpl[0]
+
+    #traverse thru, find min/max
+    for elem in tpl:
+        if (elem < min):
+            min = elem
+            continue
+
+        if (elem > max):
+            max = elem
+
+    #advise caller
+    return (min, max)
+
+
+#================================================================================
+def tuples_unpack(tpl):
+    """Unpacks tuple into scalars
+    :arg: None
+    :return: None
+    """
+
+    min, max = minmax(tpl)      # returned tuple is unpacked
+    print('\n min=%d, max=%d' % (min, max))
+
+    #swap
+    min, max = max, min
+    print('\n After swap: min=%d, max=%d' % (min, max))
+
 
 #================================================================================
 #module entry point function
@@ -173,5 +239,9 @@ def ds_tuples_mdl():
     print('\n-------------------------')
 
     tuples_join(tpl)
+
+    print('\n-------------------------')
+
+    tuples_unpack(tpl)
 
     print ('\n ----------- Tuples Module is Done >>>> ')

@@ -1,4 +1,11 @@
-
+#===========================================================================
+#                           Import Module
+#===========================================================================
+"""
+# Demonstrates using the 'import' mechanism
+#
+# Author: Shuky Persky
+#
 #import search path are set by the list of paths in sys.path
 #
 # to display the path settings do as follows:
@@ -13,14 +20,17 @@
 #   'C:\\ProgramData\\Anaconda3\\lib\\site-packages\\Pythonwin', '
 #   G:\\dvlp (study)\\python\\become_pro', 'G:/dvlp (study)/python/become_pro']
 #
+"""
 
-#import could be
-# from statistics inport *
+
+# import could be
+# from statistics import *
 # so we could call every function by its name
 # however this may create  acollision with functions of same name from other imported modules
 import statistics as stat
 
 my_list = [5, 3, 2, 9, 9, 7, 4, 3, 1, 8, 9]
+
 
 #================================================================================
 #module entry point function

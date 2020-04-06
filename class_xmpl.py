@@ -1,4 +1,12 @@
-
+#===========================================================================
+#                           Class Example Module
+#===========================================================================
+"""
+# Shows an example simple class
+#
+# Author: Shuky Persky
+#
+"""
 
 #example class
 
@@ -17,9 +25,7 @@ class calc:
         return (x / y)
 
 
-
-
-
+#===========================================================================
 #module entry point function
 def class_xmpl_mdl():
 

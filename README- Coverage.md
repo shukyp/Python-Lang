@@ -12,3 +12,5 @@
 ## -. Functions
 ## -. Classes
 ## -. Exceptions 
+## -. Equality & Identity
+

@@ -1,5 +1,15 @@
+#===========================================================================
+#                           Basic Module
+#===========================================================================
+"""
+# deals with builtin types: scalar & strings
+#
+# Author: Shuky Persky
+#
+"""
 
 
+#===========================================================================
 #module entry point function
 def basics_mdl():
 
@@ -34,6 +44,14 @@ def basics_mdl():
     print(floatVar)
     print(strVar)
     print(boolVar)
+
+    #swap
+    a = 7
+    b = 12
+    print('\n Before swap: a=%d, b=%d' % (a, b))
+
+    a, b = b, a
+    print('\n After swap: a=%d, b=%d' % (a, b))
 
     print('\n ----------- Basics Module is Done >>>> ')
 
