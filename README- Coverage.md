@@ -1,5 +1,5 @@
-# What is cobered
-
+# Covered / Referred Topics
+------------------------------
 ## -. Command Line Arguments
 ## -. Main menu 
 ## -. User input (& textual menu management)
@@ -8,7 +8,7 @@
 ## -. Flow control
 ## -. Loops
 ## -. File IO
-## -. Containers
+## -. Containers (List, Tuple, Dictionary, Set)
 ## -. Functions
 ## -. Classes
 ## -. Exceptions 
