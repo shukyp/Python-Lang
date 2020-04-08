@@ -8,6 +8,13 @@
 #
 """
 
+#===========================================================================
+# Python standard library
+# datetime: https://docs.python.org/3/library/datetime.html#module-datetime
+# time      https://docs.python.org/3/library/time.html
+# calendar  https://docs.python.org/3/library/calendar.html#module-calendar
+#===========================================================================
+
 import time         # Python Standard Library
 import datetime     # Python Standard Library
 

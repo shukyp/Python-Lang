@@ -4,7 +4,7 @@
 ## -. Main menu 
 ## -. User input (& textual menu management)
 ## -. scalar types
-## -. scope
+## -. object's scope
 ## -. Flow control
 ## -. Loops
 ## -. File IO
@@ -12,5 +12,7 @@
 ## -. Functions
 ## -. Classes
 ## -. Exceptions 
-## -. Equality & Identity
-
+## -. Object's data equality & Identity equality
+## -. Mechanisms: iterator-like, enumerate, range, unpacking, slicing, netative-indexes
+## -. strings manipulation (including .format, f-strings)
+## -. Tiem & Date

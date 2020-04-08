@@ -3,6 +3,8 @@
 #===========================================================================
 """
 # Demonstrates accessing the builtin List type (container)
+# List is mutable
+# support the following protocols: Container, Size, Iterable, Sequence, Mutable Sequence
 #
 # Author: Shuky Persky
 #
@@ -13,6 +15,7 @@
 # https://www.w3schools.com/python/python_lists.asp
 # https://www.tutorialspoint.com/python/python_lists.htm
 #---------------------------------------------------------------------------------
+
 
 
 #================================================================================
@@ -26,10 +29,28 @@ def list_show(lst):
 
     print('\n-------------------------')
 
+    print('\nSlicing ')
+
+
+    print('\n-------------------------')
+
     #for loop on list elements
-    print('\n Looping thru the list elements (for loop)\n')
+    print('\n Looping thru the list elements (for loop using range)\n')
+    for i in range(len(lst)):
+        print(lst[i], ',')
+
+    print('\n Looping thru the list elements (for loop using kind-of-iterator)\n')
     for elem in lst:
         print(elem, ',')
+
+    print('\n Looping thru the list elements (for loop using enumerate)\n')
+    for elem_info in enumerate(lst):
+        print(elem_info, ',')
+        print(f'elem_info: indx={elem_info[0]}, data={elem_info[1]}')
+
+    print('\n Looping thru the list elements (for loop using enumerate & unpacking)\n')
+    for i, d in enumerate(lst):
+        print(f'elem_info: indx={i}, data={d}')
 
     #List of lists
     mtrx = [[1, 3], [-9, 33], [111, -88], [62, 44], [-12, 56]]
@@ -55,11 +76,18 @@ def list_elems_access(lst):
     idx = -1
     print("\n[Show-5] Accessing last (-1) list\'s element: %d of type %s" %( lst[idx], type(lst[idx])))
 
+    print('\n Slicing - positive index')
     _from = 2
     _to = 5
     print("\n[Show-6] Accessing range of list\'s element: [%d .. %d]" % (_from, _to), lst[_from:_to])
     print("\n[Show-7] Accessing range of list\'s element: [%d:]" % (_from), lst[_from:])
     print("\n[Show-8] Accessing range of list\'s element: [:%d]" % (_to), lst[:_to])
+
+    print('\n Slicing - negative index')
+    _from = -2
+    _to = 3
+    _step = -1
+    print("\n[Show-6] Accessing range of list\'s element: [%d .. %d]" % (_from, _to), lst[_from:_to:_step])
 
 
 #================================================================================
@@ -296,20 +324,24 @@ def lists_join (lst):
     lst3 = lst + lst2
     print ('\nThe result of joining by adding ', lst2, ' to end of ', lst, ' is ', lst3)
 
+    lst4 = lst.copy();
+    lst4 += lst2
+    print ('\nThe result of joining by adding ', lst2, ' to end of ', lst, ' is ', lst4)
+
     # list can be duplicated few times by multiplication
     mul_lst = lst * 4  #multiply 4 times
     print ('\nThe result of joining by multiply ', lst, ' 4 times is ', mul_lst)
 
     # join by extend
-    lst4 = lst.copy ()
-    lst4.extend (lst2)
-    print ('\nThe result of joining by extending ', lst, ' list by ', lst2, ' is ', lst4)
+    lst5 = lst.copy ()
+    lst5.extend (lst2)
+    print ('\nThe result of joining by extending ', lst, ' list by ', lst2, ' is ', lst5)
 
     # join by append - the appended list becomes a single element of type list
     # as last element of the list it is appended to, jsut like appending a single value
-    lst5 = lst.copy ()
-    lst5.append (lst2)
-    print ('\nThe result of joining by appending ', lst2, ' list to', lst, ' is ', lst5)
+    lst6 = lst.copy ()
+    lst6.append (lst2)
+    print ('\nThe result of joining by appending ', lst2, ' list to', lst, ' is ', lst6)
 
 
 #================================================================================
@@ -326,6 +358,11 @@ def ds_lists_mdl():
     lst = [6, 2, 3, 6, 8, 5, 9, 4, 3, 12, 17, 24, -12, 56, -10, 13]
     lst_elems_diff_types = [6, 2, 3, 6, 8, 9, 4, 3, 'string']
     empty_list = []
+    gnrt_lst = list(range(100, 200, 4))     # list elems: every 4th value in range of 100..200)
+                                            # while 200 is excluded
+
+    #unpacking
+    a, b, c, d, e, f = list (range (100, 123, 4))
 
     print('\n-------------------------')
 

@@ -54,7 +54,10 @@ from ds_tuples import ds_tuples_mdl
 from ds_dicts import ds_dicts_mdl
 from ds_sets import ds_sets_mdl
 from eql_id import equality_identity_mdl
-from date_time  import date_time_mdl
+from date_time import date_time_mdl
+from strings import strings_mdl
+from exceptions import exceptions_mdl
+
 
 
 #--- modules list ---
@@ -72,6 +75,8 @@ DS_DICTS_MDL        = 11
 DS_SETS_MDL         = 12
 EQL_ID_MDL          = 13
 DT_TM_MDL           = 14
+STRINGS_MDL         = 15
+EXCEPTIONS_MDL      = 16
 
 
 #globals
@@ -90,6 +95,8 @@ gMenu = {  # menu options
     DS_SETS_MDL     : ds_sets_mdl,
     EQL_ID_MDL      : equality_identity_mdl,
     DT_TM_MDL       : date_time_mdl,
+    STRINGS_MDL     : strings_mdl,
+    EXCEPTIONS_MDL  : exceptions_mdl,
 }
 
 
@@ -100,20 +107,22 @@ def show_menu():
     :return: None
     '''
     print ('\n\n Python Language Elements \n========================= \n')
-    print('%d. Basics' % (BASICS_MDL))
-    print('%d. ifs control' % (IFS_MDL))
-    print('%d. Loops' % (LOOPS_MDL))
-    print('%d. functions' % (FUNCS_MDL))
-    print('%d. var scope' % (SCOPE_MDL))
-    print('%d. files' % (FILES_MDL))
-    print('%d. class example' % (CLASS_XMPL_MDL))
-    print('%d. importer (stat)' % (IMPORTER_MDL))
-    print('%d. lists' % (DS_LISTS_MDL))
-    print('%d. tuples' % (DS_TUPLES_MDL))
-    print('%d. lists' % (DS_DICTS_MDL))
-    print('%d. lists' % (DS_SETS_MDL))
-    print('%d. equality & identity' % (EQL_ID_MDL))
-    print('%d. date/time' % (DT_TM_MDL))
+    print('{mdl:-02d}. Basics               '.format(mdl=BASICS_MDL))
+    print('{mdl:-02d}. IFs control          '.format(mdl=IFS_MDL))
+    print('{mdl:-02d}. Loops                '.format(mdl=LOOPS_MDL))
+    print('{mdl:-02d}. Functions            '.format(mdl=FUNCS_MDL))
+    print('{mdl:-02d}. Var scope            '.format(mdl=SCOPE_MDL))
+    print('{mdl:-02d}. Files                '.format(mdl=FILES_MDL))
+    print('{mdl:-02d}. Class example        '.format(mdl=CLASS_XMPL_MDL))
+    print('{mdl:-02d}. Importer             '.format(mdl=IMPORTER_MDL))
+    print('{mdl:-02d}. Lists                '.format(mdl=DS_LISTS_MDL))
+    print('{mdl:-02d}. Tuples               '.format(mdl=DS_TUPLES_MDL))
+    print('{mdl:-02d}. Dictionaries         '.format(mdl=DS_DICTS_MDL))
+    print('{mdl:-02d}. Lists                '.format(mdl=DS_SETS_MDL))
+    print('{mdl:-02d}. Equality & Identity  '.format(mdl=EQL_ID_MDL))
+    print('{mdl:-02d}. Date/Time            '.format(mdl=DT_TM_MDL))
+    print('{mdl:-02d}. Strings              '.format(mdl=STRINGS_MDL))
+    print('{mdl:-02d}. Exceptions           '.format(mdl=EXCEPTIONS_MDL))
     print('#. Otherwise ... exit ')
 
 

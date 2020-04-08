@@ -3,6 +3,8 @@
 #===========================================================================
 """
 # Demonstrates accessing the builtin Tuple type (container)
+# Tuple is immutable
+# support the following protocols: Container, Size, Iterable, Sequence
 #
 # Author: Shuky Persky
 #
@@ -28,9 +30,22 @@ def tuple_show(tpl):
     print('\n-------------------------')
 
     #for loop on tuple elements
-    print('\n Looping thru the tuple elements (for loop)\n')
+    print('\n Looping thru the tuple elements (for loop using range)\n')
+    for i in range(len(tpl)):
+        print(tpl[i], ',')
+
+    print('\n Looping thru the tuple elements (for loop using kind-of-iterator)\n')
     for elem in tpl:
         print(elem, ',')
+
+    print('\n Looping thru the tuple elements (for loop using enumerate)\n')
+    for elem_info in enumerate(tpl):
+        print(elem_info, ',')
+        print(f'elem_info: indx={elem_info[0]}, data={elem_info[1]}')
+
+    print ('\n Looping thru the tuple elements (for loop using enumerate & unpacking)\n')
+    for i, d in enumerate(tpl):
+        print(f'elem_info: indx={i}, data={d}')
 
     #Tuple of tuples
     mtrx = ((1, 3), (-9, 33), (111, -88), (62, 44), (-12, 56))
@@ -56,11 +71,18 @@ def tuple_elems_access(tpl):
     idx = -1
     print("\n[Show-5] Accessing last (-1) tuple\'s element: %d of type %s" %( tpl[idx], type(tpl[idx])))
 
+    print('\n Slicing - positive index')
     _from = 2
     _to = 5
     print("\n[Show-6] Accessing range of tuple\'s element: [%d .. %d]" % (_from, _to), tpl[_from:_to])
     print("\n[Show-7] Accessing range of tuple\'s element: [%d:]" % (_from), tpl[_from:])
     print("\n[Show-8] Accessing range of tuple\'s element: [:%d]" % (_to), tpl[:_to])
+
+    print('\n Slicing - negative index')
+    _from = -2
+    _to = 3
+    _step = -1
+    print("\n[Show-6] Accessing range of tuple\'s element: [%d .. %d]" % (_from, _to), tpl[_from:_to:_step])
 
 
 #================================================================================
@@ -152,6 +174,10 @@ def tuples_join (tpl):
     tpl3 = tpl + tpl2
     print ('\nThe result of joining by adding ', tpl2, ' to end of ', tpl, ' is ', tpl3)
 
+    tpl4 = tpl.copy();
+    tpl4 += tpl2
+    print ('\nThe result of joining by adding ', tpl2, ' to end of ', tpl, ' is ', pll4)
+
     # tuples can be duplicated few times by multiplication
     mul_tpl = tpl * 4  #multiply 4 times
     print ('\nThe result of joining by multiply ', tpl, ' 4 times is ', mul_tpl)
@@ -193,6 +219,9 @@ def tuples_unpack(tpl):
 
     min, max = minmax(tpl)      # returned tuple is unpacked
     print('\n min=%d, max=%d' % (min, max))
+
+    #unpacking
+    a, b, c, d, e, f = tuple (range (100, 123, 4))
 
     #swap
     min, max = max, min
