@@ -57,7 +57,7 @@ from eql_id import equality_identity_mdl
 from date_time import date_time_mdl
 from strings import strings_mdl
 from exceptions import exceptions_mdl
-
+from generators import generators_mdl
 
 
 #--- modules list ---
@@ -77,6 +77,7 @@ EQL_ID_MDL          = 13
 DT_TM_MDL           = 14
 STRINGS_MDL         = 15
 EXCEPTIONS_MDL      = 16
+GENERATORS_MDL      = 17
 
 
 #globals
@@ -97,6 +98,7 @@ gMenu = {  # menu options
     DT_TM_MDL       : date_time_mdl,
     STRINGS_MDL     : strings_mdl,
     EXCEPTIONS_MDL  : exceptions_mdl,
+    GENERATORS_MDL  : generators_mdl
 }
 
 
@@ -118,11 +120,12 @@ def show_menu():
     print('{mdl:-02d}. Lists                '.format(mdl=DS_LISTS_MDL))
     print('{mdl:-02d}. Tuples               '.format(mdl=DS_TUPLES_MDL))
     print('{mdl:-02d}. Dictionaries         '.format(mdl=DS_DICTS_MDL))
-    print('{mdl:-02d}. Lists                '.format(mdl=DS_SETS_MDL))
+    print('{mdl:-02d}. Sets                 '.format(mdl=DS_SETS_MDL))
     print('{mdl:-02d}. Equality & Identity  '.format(mdl=EQL_ID_MDL))
     print('{mdl:-02d}. Date/Time            '.format(mdl=DT_TM_MDL))
     print('{mdl:-02d}. Strings              '.format(mdl=STRINGS_MDL))
     print('{mdl:-02d}. Exceptions           '.format(mdl=EXCEPTIONS_MDL))
+    print('{mdl:-02d}. Generators           '.format (mdl=GENERATORS_MDL))
     print('#. Otherwise ... exit ')
 
 

@@ -176,7 +176,7 @@ def tuples_join (tpl):
 
     tpl4 = tpl.copy();
     tpl4 += tpl2
-    print ('\nThe result of joining by adding ', tpl2, ' to end of ', tpl, ' is ', pll4)
+    print ('\nThe result of joining by adding ', tpl2, ' to end of ', tpl, ' is ', tpl4)
 
     # tuples can be duplicated few times by multiplication
     mul_tpl = tpl * 4  #multiply 4 times
@@ -229,6 +229,32 @@ def tuples_unpack(tpl):
 
 
 #================================================================================
+def tuples_iterator(tpl):
+    '''Shows how to implement list iterator
+
+    :arg        tpl(tuple)
+                    just data
+
+    :return:    none
+
+    :raises     none
+    '''
+
+    #create iiterator
+    iterator = iter(tpl)
+
+    while (True):
+        try:
+            elem = next(iterator)
+            print(elem)
+        except StopIteration as SI_e:
+            print(f'=> {SI_e!r})')
+            break
+
+    print('\n We are done with iterator traverse')
+
+
+#================================================================================
 #module entry point function
 def ds_tuples_mdl():
 
@@ -272,5 +298,10 @@ def ds_tuples_mdl():
     print('\n-------------------------')
 
     tuples_unpack(tpl)
+
+    print('\n-------------------------')
+
+    tuples_iterator (tpl)
+
 
     print ('\n ----------- Tuples Module is Done >>>> ')
