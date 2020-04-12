@@ -58,6 +58,9 @@ from date_time import date_time_mdl
 from strings import strings_mdl
 from exceptions import exceptions_mdl
 from generators import generators_mdl
+from oo_base_class import base_class_mdl
+from oo_derived_class import derived_class_mdl
+from pckg import pckg_mdl
 
 
 #--- modules list ---
@@ -78,6 +81,9 @@ DT_TM_MDL           = 14
 STRINGS_MDL         = 15
 EXCEPTIONS_MDL      = 16
 GENERATORS_MDL      = 17
+BASE_CLASS_MDL      = 18
+DRVD_CLASS_MDL      = 19
+PCKG_MDL            = 20
 
 
 #globals
@@ -98,7 +104,10 @@ gMenu = {  # menu options
     DT_TM_MDL       : date_time_mdl,
     STRINGS_MDL     : strings_mdl,
     EXCEPTIONS_MDL  : exceptions_mdl,
-    GENERATORS_MDL  : generators_mdl
+    GENERATORS_MDL  : generators_mdl,
+    BASE_CLASS_MDL  : base_class_mdl,
+    DRVD_CLASS_MDL  : derived_class_mdl,
+    PCKG_MDL        : pckg_mdl
 }
 
 
@@ -125,7 +134,10 @@ def show_menu():
     print('{mdl:-02d}. Date/Time            '.format(mdl=DT_TM_MDL))
     print('{mdl:-02d}. Strings              '.format(mdl=STRINGS_MDL))
     print('{mdl:-02d}. Exceptions           '.format(mdl=EXCEPTIONS_MDL))
-    print('{mdl:-02d}. Generators           '.format (mdl=GENERATORS_MDL))
+    print('{mdl:-02d}. Generators           '.format(mdl=GENERATORS_MDL))
+    print('{mdl:-02d}. Base-Class           '.format(mdl=BASE_CLASS_MDL))
+    print('{mdl:-02d}. Derived-Class        '.format(mdl=DRVD_CLASS_MDL))
+    print('{mdl:-02d}. Package              '.format(mdl=PCKG_MDL))
     print('#. Otherwise ... exit ')
 
 

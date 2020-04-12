@@ -174,9 +174,9 @@ def tuples_join (tpl):
     tpl3 = tpl + tpl2
     print ('\nThe result of joining by adding ', tpl2, ' to end of ', tpl, ' is ', tpl3)
 
-    tpl4 = tpl.copy();
-    tpl4 += tpl2
-    print ('\nThe result of joining by adding ', tpl2, ' to end of ', tpl, ' is ', tpl4)
+    #tpl4 = tpl.copy();     ????
+    #tpl4 += tpl2
+    #print ('\nThe result of joining by adding ', tpl2, ' to end of ', tpl, ' is ', tpl4)
 
     # tuples can be duplicated few times by multiplication
     mul_tpl = tpl * 4  #multiply 4 times

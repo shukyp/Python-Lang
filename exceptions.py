@@ -177,7 +177,7 @@ def exceptions_mdl():
     #-----------------------------------------------------------
     #                         finally_usage
     #-----------------------------------------------------------
-    path = "t:\\kuku"
+    path = "t:\\calc"
     folder = 'aaa'
     try:
         finally_usage (path, folder)   #path doesn't exist
