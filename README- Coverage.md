@@ -5,12 +5,16 @@
 ##  -. User input (& textual menu management)
 ##  -. scalar types
 ##  -. object's scope
-##  -. Flow control
+##  -. Flow control (if, "switch")
+##  -. Conditional-expression 
+##  -. Lambda Expression 
 ##  -. Loops
 ##  -. File IO
 ##  -. Containers (List, Tuple, Dictionary, Set)
 ##      comprehension(+filtering), iteration/iterator
-##  -. Functions
+##  -. Functions (reguler ones, multiple args and keyword arg)
+##  -. Local function and Closures
+##  -. Decorators (of type: Function, Class, Stacked/Multiple)
 ##  -. Classes
 ##  -. Exceptions
 ##  -. Object's data equality & Identity equality
@@ -20,7 +24,7 @@
 ##  -. Tiem & Date
 ##  -. generators
 ##  -. OOP:
-##      - Class (__init__, __str__, __repr__),
+##      - Class (__init__, __str__, __repr__, __call__),
 ##      - instance methhod, class method,  static method
 ##      - ingeritance:Derived class, methods overwrite
 ##  -. Package

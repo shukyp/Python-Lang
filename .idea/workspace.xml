@@ -2,82 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c73f4e7f-07ea-4240-9d43-983e3546e410" name="Default" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="229" selection-start-line="229" selection-end-line="229" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pckg.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pckg.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="46" column="67" selection-start-line="46" selection-start-column="67" selection-end-line="46" selection-end-column="67" />
-              <folding>
-                <element signature="e#309#327#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/calc/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="calc.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/calc/calc.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="722">
-              <caret line="59" column="111" selection-start-line="59" selection-start-column="111" selection-end-line="59" selection-end-column="111" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/calc/oldSubcalc/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="oo_derived_class.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/oo_derived_class.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="67">
-              <caret line="35" column="36" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="oldSubcalc.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/calc/oldSubcalc/oldSubcalc.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -86,96 +14,7 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>in list</find>
-      <find>del lst</find>
-      <find>del</find>
-      <find>len</find>
-      <find>list_clear_delete</find>
-      <find>join</find>
-      <find>lists_join(lst)</find>
-      <find>lists_join</find>
-      <find>count</find>
-      <find>index</find>
-      <find>delete</find>
-      <find>int0</find>
-      <find>EQUALITY_MDL</find>
-      <find>tuples_unpack</find>
-      <find>just</find>
-      <find>+</find>
-      <find>remove</find>
-      <find>insert</find>
-      <find>+=</find>
-      <find>lst5</find>
-      <find>_join</find>
-      <find>sort</find>
-      <find>b_diff_a</find>
-      <find>%d</find>
-      <find>lists_comrehension</find>
-      <find>enume</find>
-      <find>Sum is</find>
-      <find>copy</find>
-      <find>OldSubCalc__</find>
-      <find>oldSubcalc</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>tpl</replace>
-      <replace>tuple</replace>
-      <replace>in tuple</replace>
-      <replace>flt0</replace>
-      <replace>str0</replace>
-      <replace>EQL_ID_MDL</replace>
-      <replace>{}</replace>
-    </replaceStrings>
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/calc/oldSubcalc/__init__.py" />
-        <option value="$PROJECT_DIR$/calc/oldSubcalc/oldSubcalc.py" />
-        <option value="$PROJECT_DIR$/pckg.py" />
-        <option value="$PROJECT_DIR$/calc/calc.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1" />
-    <option name="y" value="4" />
-    <option name="width" value="1909" />
-    <option name="height" value="1081" />
-  </component>
   <component name="ProjectId" id="1aRettiHEk3Kr8qe7EmUwull6uc" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="become_pro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="become_pro" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="become_pro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="become_pro" type="462c0819:PsiDirectoryNode" />
-              <item name="calc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="become_pro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="become_pro" type="462c0819:PsiDirectoryNode" />
-              <item name="calc" type="462c0819:PsiDirectoryNode" />
-              <item name="oldSubcalc" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -184,9 +23,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="()&#9;null&#9;null" />
-    <property name="last_opened_file_path" value="C:/Program Files/R/R-3.4.3/bin/Rscript.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -196,17 +36,10 @@
       </console-settings>
     </option>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\dvlp (study)\python\become_pro" />
+    </key>
   </component>
   <component name="RunManager" selected="Python.become_pro">
     <configuration name="become_pro" type="PythonConfigurationType" factoryName="Python">
@@ -226,6 +59,9 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="importer" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="become_pro" />
@@ -244,6 +80,9 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Python.become_pro" />
@@ -277,71 +116,55 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="1" y="4" width="1909" height="1081" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21254732" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="R Packages" />
-      <window_info anchor="right" id="R Graphics" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.13066955" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" weight="0.32937366" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.46436286" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-    </layout>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="WindowStateProjectService">
-    <state width="1631" height="318" key="GridCell.Tab.0.bottom" timestamp="1586705194542">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="2646" y="350" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586793803070">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1631" height="318" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1586705194542" />
-    <state width="1631" height="318" key="GridCell.Tab.0.center" timestamp="1586705194541">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="2646" y="350" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1586793803070" />
+    <state width="1825" height="442" key="GridCell.Tab.0.bottom" timestamp="1586826269649">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1631" height="318" key="GridCell.Tab.0.center/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1586705194541" />
-    <state width="1631" height="318" key="GridCell.Tab.0.left" timestamp="1586705194541">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1779" height="442" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1586810710555" />
+    <state width="1825" height="442" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1586826269649" />
+    <state width="1825" height="442" key="GridCell.Tab.0.center" timestamp="1586826269649">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1631" height="318" key="GridCell.Tab.0.left/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1586705194541" />
-    <state width="1631" height="318" key="GridCell.Tab.0.right" timestamp="1586705194541">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1779" height="442" key="GridCell.Tab.0.center/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1586810710555" />
+    <state width="1825" height="442" key="GridCell.Tab.0.center/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1586826269649" />
+    <state width="1825" height="442" key="GridCell.Tab.0.left" timestamp="1586826269649">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1631" height="318" key="GridCell.Tab.0.right/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1586705194541" />
-    <state width="1631" height="318" key="GridCell.Tab.1.bottom" timestamp="1586705194542">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1779" height="442" key="GridCell.Tab.0.left/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1586810710555" />
+    <state width="1825" height="442" key="GridCell.Tab.0.left/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1586826269649" />
+    <state width="1825" height="442" key="GridCell.Tab.0.right" timestamp="1586826269649">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1631" height="318" key="GridCell.Tab.1.bottom/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1586705194542" />
-    <state width="1631" height="318" key="GridCell.Tab.1.center" timestamp="1586705194542">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1779" height="442" key="GridCell.Tab.0.right/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1586810710555" />
+    <state width="1825" height="442" key="GridCell.Tab.0.right/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1586826269649" />
+    <state width="1825" height="442" key="GridCell.Tab.1.bottom" timestamp="1586826269649">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1631" height="318" key="GridCell.Tab.1.center/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1586705194542" />
-    <state width="1631" height="318" key="GridCell.Tab.1.left" timestamp="1586705194542">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1779" height="442" key="GridCell.Tab.1.bottom/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1586810713953" />
+    <state width="1825" height="442" key="GridCell.Tab.1.bottom/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1586826269649" />
+    <state width="1825" height="442" key="GridCell.Tab.1.center" timestamp="1586826269649">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1631" height="318" key="GridCell.Tab.1.left/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1586705194542" />
-    <state width="1631" height="318" key="GridCell.Tab.1.right" timestamp="1586705194542">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1779" height="442" key="GridCell.Tab.1.center/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1586810713952" />
+    <state width="1825" height="442" key="GridCell.Tab.1.center/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1586826269649" />
+    <state width="1825" height="442" key="GridCell.Tab.1.left" timestamp="1586826269649">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1631" height="318" key="GridCell.Tab.1.right/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1586705194542" />
-    <state x="389" y="160" key="SettingsEditor" timestamp="1586703622514">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1779" height="442" key="GridCell.Tab.1.left/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1586810713952" />
+    <state width="1825" height="442" key="GridCell.Tab.1.left/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1586826269649" />
+    <state width="1825" height="442" key="GridCell.Tab.1.right" timestamp="1586826269649">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="389" y="160" key="SettingsEditor/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1586703622514" />
+    <state width="1779" height="442" key="GridCell.Tab.1.right/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1586810713952" />
+    <state width="1825" height="442" key="GridCell.Tab.1.right/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1586826269649" />
+    <state x="2146" y="274" key="SettingsEditor" timestamp="1586720726359">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2146" y="274" key="SettingsEditor/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1586720726359" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -408,7 +231,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/oo_derived_class.py</url>
-          <line>126</line>
+          <line>161</line>
           <option name="timeStamp" value="53" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -417,83 +240,58 @@
           <option name="timeStamp" value="58" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/oo_derived_class.py</url>
-          <line>108</line>
-          <option name="timeStamp" value="59" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/oo_derived_class.py</url>
-          <line>100</line>
-          <option name="timeStamp" value="66" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/pckg.py</url>
           <line>47</line>
           <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/oo_derived_class.py</url>
+          <line>119</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/oo_derived_class.py</url>
+          <line>134</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/oo_derived_class.py</url>
+          <line>149</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/funcs.py</url>
+          <line>126</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/closure.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/decorator.py</url>
+          <line>116</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/decorator.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/decorator.py</url>
+          <line>46</line>
+          <option name="timeStamp" value="82" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="self.__class__.__name__" language="Python" />
-        <watch expression="'{obj.__class__.__name__}: width={obj._width}'.fomat(obj=self)" language="Python" />
-        <watch expression="calc_obj" language="Python" />
-        <watch expression="calc.oldSubcalc" language="Python" />
+        <watch expression="elem" />
+        <watch expression="elem[0]" language="Python" />
+        <watch expression="obj=elem" language="Python" />
       </configuration>
     </watches-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="229" selection-start-line="229" selection-end-line="229" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/calc/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/calc/oldSubcalc/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oo_derived_class.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="35" column="36" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/calc/oldSubcalc/oldSubcalc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pckg.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="46" column="67" selection-start-line="46" selection-start-column="67" selection-end-line="46" selection-end-column="67" />
-          <folding>
-            <element signature="e#309#327#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/calc/calc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="59" column="111" selection-start-line="59" selection-start-column="111" selection-end-line="59" selection-end-column="111" />
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>

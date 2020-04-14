@@ -61,6 +61,8 @@ from generators import generators_mdl
 from oo_base_class import base_class_mdl
 from oo_derived_class import derived_class_mdl
 from pckg import pckg_mdl
+from closure import closure_mdl
+from decorator import decorator_mdl
 
 
 #--- modules list ---
@@ -84,6 +86,8 @@ GENERATORS_MDL      = 17
 BASE_CLASS_MDL      = 18
 DRVD_CLASS_MDL      = 19
 PCKG_MDL            = 20
+CLSR_MDL            = 21
+DCRTR_MDL           = 22
 
 
 #globals
@@ -107,7 +111,9 @@ gMenu = {  # menu options
     GENERATORS_MDL  : generators_mdl,
     BASE_CLASS_MDL  : base_class_mdl,
     DRVD_CLASS_MDL  : derived_class_mdl,
-    PCKG_MDL        : pckg_mdl
+    PCKG_MDL        : pckg_mdl,
+    CLSR_MDL        : closure_mdl,
+    DCRTR_MDL       : decorator_mdl
 }
 
 
@@ -138,6 +144,8 @@ def show_menu():
     print('{mdl:-02d}. Base-Class           '.format(mdl=BASE_CLASS_MDL))
     print('{mdl:-02d}. Derived-Class        '.format(mdl=DRVD_CLASS_MDL))
     print('{mdl:-02d}. Package              '.format(mdl=PCKG_MDL))
+    print('{mdl:-02d}. Closure              '.format(mdl=CLSR_MDL))
+    print('{mdl:-02d}. Decortaor            '.format(mdl=DCRTR_MDL))
     print('#. Otherwise ... exit ')
 
 
